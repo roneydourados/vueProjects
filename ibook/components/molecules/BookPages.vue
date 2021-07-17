@@ -26,4 +26,13 @@ export default Vue.extend({
 })
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.book-pages {
+  display: grid;
+  width: 250px;
+  height: 250px;
+  border: 0;
+  border-radius: 5px;
+  background: color(dark, darkest);
+}
+</style>
