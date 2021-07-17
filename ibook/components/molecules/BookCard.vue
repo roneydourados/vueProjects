@@ -1,11 +1,11 @@
 <template>
-  <NunxtLink class="book-card" :to="`/book/${book.id}`">
+  <NuxtLink class="book-card" :to="`/book/${book.id}`">
     <img :src="book.cover" :alt="`Capa do livro ${book.title}`" />
     <div class="text">
       <h4>{{ book.title }}</h4>
       <p>{{ book.author }}</p>
     </div>
-  </NunxtLink>
+  </NuxtLink>
 </template>
 
 <script lang="ts">
