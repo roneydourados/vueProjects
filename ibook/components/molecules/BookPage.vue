@@ -1,7 +1,10 @@
 <template>
-  <div class="book-page">
-    <h3>{{ pageNumber }}</h3>
-  </div>
+  <NuxtLink to="/" class="book-page">
+    {{ pageNumber }}
+    <div>
+      <p>{{ pageContent }}</p>
+    </div>
+  </NuxtLink>
 </template>
 
 <script lang="ts">
@@ -12,6 +15,10 @@ export default Vue.extend({
     pageNumber: {
       type: Number,
       required: true
+    },
+    pageContent: {
+      type: String,
+      required: true
     }
   }
 })
@@ -20,9 +27,14 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .book-page {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  align-items: center;
+  columns: 300px 1fr;
+  width: 300px;
+  height: 2rem;
+  margin-top: 1rem;
+
+  border: 0;
+  border-radius: 5px;
+  background: color(dark);
   @include screen('small', 'medium') {
     grid-template-columns: 1fr;
   }

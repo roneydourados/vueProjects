@@ -1,13 +1,15 @@
 <template>
   <div class="presentation">
     <p>
-      Orientação para retirada de comentário: clicar com o botão direito do
-      mouse em cima do comentário e excluí-lo. Orientação para mudança
-      automática de páginas: clique sobre o número de página que aparece na
-      primeira folha numerada. Na aba Design, selecione o botão Número de
-      páginas e logo após Formatar número de página. Conte as páginas
-      pré-textuais e dentro da caixa, marque a opção Iniciar em e adicione a
-      quantidade de páginas correspondente
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it. It
+      is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. The point of using
+      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+      as opposed to using 'Content here, content here', making it look like
+      readable English. Many desktop publishing packages. There are many
+      variations of passages of Lorem Ipsum available
     </p>
     <img src="@/assets/img/presentation.svg" alt="Apresentação do iBook" />
   </div>
