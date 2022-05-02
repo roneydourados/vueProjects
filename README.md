@@ -1,2 +1,2 @@
 # VueJs
-curso e treinamento de reactjs
+curso e treinamento de VueJs
